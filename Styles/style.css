@@ -1,0 +1,95 @@
+body {
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+h1 {
+    color: darkgreen;
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    color: indigo;
+}
+a{
+    background-color: aqua;
+    text-decoration: none;
+}
+ul{
+    background-color: aquamarine;
+}
+li{
+    color: blueviolet;
+    font-weight: bold;
+}
+/* Can you add a style of your choice to h2 elements?*/
+
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+#fav-movie-header{
+    border: 3px darkslategray dotted;
+}
+#fav-music-header {
+    border: 3px double indigo ;
+}
+#fav-food-header {
+    border: 3px double blue ;
+}
+.fav-section {
+    background-color: darkseagreen;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px darkslategray dotted;
+}
+
+#page-header{
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: dimgray;
+    border: 10px crimson;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th {
+    background-color: darkgreen;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+tr:nth-child(even) {
+    background-color: darkviolet;
+}
+td{
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+
+#most-favorite-food {
+    padding: 6px;
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.favorite-image {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    margin: 20px;
+}
+#fav-places {
+    text-align: left;
+    color: teal;
+}
